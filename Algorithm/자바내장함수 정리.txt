@@ -1,0 +1,7 @@
+//알파벳 소문자로 치환
+toLowerCase()
+
+//문자열을 char형 배열로 바꿈
+toCharArray()
+
+//
