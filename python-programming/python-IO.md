@@ -20,8 +20,9 @@
 
 
 > 정수형 데이터와 문자열 더하기 불가
-
+> f-string사용해야함 ( 문자열 안에 정수나 실수 사용할수있도록 )
 
     answer = 7
     print("정답은" + str(answer) )
+    print(f "정답은 {answer}")
     
