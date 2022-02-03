@@ -16,6 +16,7 @@
  ----
  
  > 람다 표현식 
+ >> 여러개의 리스트에 동일하게 적용하고 싶은게 있을때
 
 
      def add(a.b):
@@ -32,3 +33,31 @@
     print(sorted(array, key=key)) 
     print(sorted(array, key=lambda x:x[1])) //람다 써서 한줄로 처리도 가능함 왜냐면 키함수는 한번 쓰이고 안쓰이는거니까 람다 사용하는게 좋음
     
+    map 각각에 원소에 어떠한 함수를 적용하고자 할떄
+    result = map(lambda a,b:a+b, list1,list2)
+    //a랑 b가 주어졌을때 a와b를 더하는 함수를 정의하고 a와b에는 list1, list2를 대입
+    
+----
+## 표준 라이브러리
+    
+> itertools
+>> 순열과 조합라이브러리는 코테에서 자주 사용
+
+> heapq
+>> 우선 순위 큐 기능을 구현하기 위해 자주 사용
+
+> bisect coolections maths
+
+> sum(), min(), max(), eval(), sorted()//기본이 오름차순, 
+---- 
+> 순열 ( from itertools import permutations )
+> 중복 순열 ( from itertools import product )
+>> 서로다른 n개에서 서로다른 r개를 선택하여 일렬로 나열하는것 
+
+    result = list(permutations(data,3))
+
+> 조합 ( from itertools import combinations )
+> 중복 조합 ( from itertools import combinations_with_replacement )
+>> 서로다른 n개에서 순서에 상관없이 서로 다른 r개를 선택하는것
+
+ 
