@@ -11,7 +11,7 @@ x,y = 1,1
 
 dx = [0,0,-1,1] #행
 dy = [1,-1,0,0] #열
-move_types = ['L','R','U','D']
+move_types = ['L','R','U','D'] #list에 담음
 
 for plan in plans:
     for i in range(len(move_types)):
@@ -25,9 +25,3 @@ for plan in plans:
 
     print(x,y)
 
-
-
-
-
-for i in 100 :
-    for j in 100:
