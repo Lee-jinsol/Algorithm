@@ -1,4 +1,4 @@
-'''
+
     suger = int(input())
     result = 0
     multi = 0
@@ -18,6 +18,7 @@
             result = -1
         
     print(result)
+
 '''
 suger = int(input())
 result = 0
@@ -35,3 +36,4 @@ if suger != 0:
 
 
 print(result)
+'''
