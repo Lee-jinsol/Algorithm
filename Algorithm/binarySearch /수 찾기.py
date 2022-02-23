@@ -6,9 +6,10 @@ m_list = list(map(int, input().split()))
 result = []
 
 def binary_search(array)
-
-1 2 3 4 5 
-1 3 5 7 9
+if 존재하면 :
+    result.append(1)
+else:
+    result.append(0)
 
 
 for _ in result:
