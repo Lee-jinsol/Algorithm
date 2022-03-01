@@ -1,3 +1,4 @@
+#소마 대비문제
 n = int(input())
 n_list = list(map(int, input().split()))
 m = int(input())
